@@ -60,6 +60,29 @@ namespace HomeTask17
             //    Console.WriteLine("En kicik eded: " + c);
             //}
 
+
+            //#region Verilmis ededler siyahisinda uc reqemli ededin olub olmadigini gosteren proqram
+            //int[] numbers = { 65, 78, 25, 35, 564, 598};
+            //int num = 0;
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    if (numbers[i] > 99 && numbers[i] < 1000 || numbers[i] > -1000 && numbers[i] < -99)
+            //    {
+            //        num++;
+            //        break;
+            //    }
+                
+            //}
+            //if (num > 0)
+            //{
+            //    Console.WriteLine("Bu siyahida 3 reqemli eded var");
+                
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Bu siyahida 3 reqemli eded yoxdur");
+            //}
+
         }
     }
 }
