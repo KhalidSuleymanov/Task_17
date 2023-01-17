@@ -1,13 +1,11 @@
-﻿using System.Text.RegularExpressions;
+﻿using System;
 
-namespace HomeTask17
+namespace HomeTasks17
 {
     internal class Program
     {
         static void Main(string[] args)
-
         {
-
             //#region Verilmis ededler siyahisindaki 3 e bolunen ededlerin ortalamasi.
             //int[] arr = { 1, 9, 8, 16, 85, 45, 81, 84, 27, 48 };
             //int count = 0;
@@ -62,7 +60,7 @@ namespace HomeTask17
 
 
             //#region Verilmis ededler siyahisinda uc reqemli ededin olub olmadigini gosteren proqram
-            //int[] numbers = { 65, 78, 25, 35, 564, 598};
+            //int[] numbers = { 65, 78, 25, 35, 564, 598 };
             //int num = 0;
             //for (int i = 0; i < numbers.Length; i++)
             //{
@@ -71,18 +69,17 @@ namespace HomeTask17
             //        num++;
             //        break;
             //    }
-                
+
             //}
             //if (num > 0)
             //{
             //    Console.WriteLine("Bu siyahida 3 reqemli eded var");
-                
+
             //}
             //else
             //{
             //    Console.WriteLine("Bu siyahida 3 reqemli eded yoxdur");
             //}
-
         }
     }
 }
